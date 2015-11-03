@@ -12,16 +12,20 @@
 		5EC197AE1BE90648006F33C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC197AC1BE90648006F33C7 /* Main.storyboard */; };
 		5EC197B01BE90648006F33C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC197AF1BE90648006F33C7 /* Assets.xcassets */; };
 		5EC197B31BE90648006F33C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC197B11BE90648006F33C7 /* LaunchScreen.storyboard */; };
+		5EC197BB1BE90736006F33C7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC197BA1BE90736006F33C7 /* TableViewCell.swift */; };
+		5EC197DF1BE91DD2006F33C7 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC197DE1BE91DD2006F33C7 /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5EC197A51BE90648006F33C7 /* Table View in a Collection View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View in a Collection View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC197A51BE90648006F33C7 /* Collection View in a Table View Cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Collection View in a Table View Cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC197A81BE90648006F33C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC197AA1BE90648006F33C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5EC197AD1BE90648006F33C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EC197AF1BE90648006F33C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC197B21BE90648006F33C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC197B41BE90648006F33C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC197BA1BE90736006F33C7 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5EC197DE1BE91DD2006F33C7 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +50,7 @@
 		5EC197A61BE90648006F33C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EC197A51BE90648006F33C7 /* Table View in a Collection View.app */,
+				5EC197A51BE90648006F33C7 /* Collection View in a Table View Cell.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +60,8 @@
 			children = (
 				5EC197A81BE90648006F33C7 /* AppDelegate.swift */,
 				5EC197AA1BE90648006F33C7 /* ViewController.swift */,
+				5EC197BA1BE90736006F33C7 /* TableViewCell.swift */,
+				5EC197DE1BE91DD2006F33C7 /* Helpers.swift */,
 				5EC197AC1BE90648006F33C7 /* Main.storyboard */,
 				5EC197AF1BE90648006F33C7 /* Assets.xcassets */,
 				5EC197B11BE90648006F33C7 /* LaunchScreen.storyboard */,
@@ -67,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5EC197A41BE90648006F33C7 /* Table View in a Collection View */ = {
+		5EC197A41BE90648006F33C7 /* Collection View in a Table View Cell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EC197B71BE90648006F33C7 /* Build configuration list for PBXNativeTarget "Table View in a Collection View" */;
+			buildConfigurationList = 5EC197B71BE90648006F33C7 /* Build configuration list for PBXNativeTarget "Collection View in a Table View Cell" */;
 			buildPhases = (
 				5EC197A11BE90648006F33C7 /* Sources */,
 				5EC197A21BE90648006F33C7 /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Table View in a Collection View";
+			name = "Collection View in a Table View Cell";
 			productName = "Table View in a Collection View";
-			productReference = 5EC197A51BE90648006F33C7 /* Table View in a Collection View.app */;
+			productReference = 5EC197A51BE90648006F33C7 /* Collection View in a Table View Cell.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5EC197A01BE90648006F33C7 /* Build configuration list for PBXProject "Table View in a Collection View" */;
+			buildConfigurationList = 5EC197A01BE90648006F33C7 /* Build configuration list for PBXProject "Collection View in a Table View Cell" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EC197A41BE90648006F33C7 /* Table View in a Collection View */,
+				5EC197A41BE90648006F33C7 /* Collection View in a Table View Cell */,
 			);
 		};
 /* End PBXProject section */
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC197BB1BE90736006F33C7 /* TableViewCell.swift in Sources */,
 				5EC197AB1BE90648006F33C7 /* ViewController.swift in Sources */,
 				5EC197A91BE90648006F33C7 /* AppDelegate.swift in Sources */,
+				5EC197DF1BE91DD2006F33C7 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +258,7 @@
 				INFOPLIST_FILE = "Table View in a Collection View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ashfurrow.Table-View-in-a-Collection-View";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Collection View in a Table View Cell";
 			};
 			name = Debug;
 		};
@@ -261,14 +269,14 @@
 				INFOPLIST_FILE = "Table View in a Collection View/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ashfurrow.Table-View-in-a-Collection-View";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Collection View in a Table View Cell";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EC197A01BE90648006F33C7 /* Build configuration list for PBXProject "Table View in a Collection View" */ = {
+		5EC197A01BE90648006F33C7 /* Build configuration list for PBXProject "Collection View in a Table View Cell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EC197B51BE90648006F33C7 /* Debug */,
@@ -277,13 +285,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EC197B71BE90648006F33C7 /* Build configuration list for PBXNativeTarget "Table View in a Collection View" */ = {
+		5EC197B71BE90648006F33C7 /* Build configuration list for PBXNativeTarget "Collection View in a Table View Cell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EC197B81BE90648006F33C7 /* Debug */,
 				5EC197B91BE90648006F33C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
