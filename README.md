@@ -1,4 +1,4 @@
-Putting a collection view inside a table view cell has become a common user interface pattern. This repository contains sample code for a tutorial where I show you how to do just that. 
+Putting a collection view inside a table view cell has become a common user interface pattern. This repository contains sample code for a [tutorial where I show you how to do just that](http://ashfurrow.com/blog/putting-a-uicollectionview-in-a-uitableviewcell-in-swift/).
 
 <p align="center">
   <img src="http://static.ashfurrow.com/github/tutorial.png" />
