@@ -13,6 +13,7 @@ extension TableViewCell {
         collectionView.delegate = dataSourceDelegate
         collectionView.dataSource = dataSourceDelegate
         collectionView.tag = row
+        collectionView.reloadData()
     }
 
     var collectionViewOffset: CGFloat {
