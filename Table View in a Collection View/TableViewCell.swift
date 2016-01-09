@@ -13,7 +13,7 @@ extension TableViewCell {
         collectionView.delegate = dataSourceDelegate
         collectionView.dataSource = dataSourceDelegate
         collectionView.tag = row
-        collectionView.setContentOffset(collectionView.contentOffset, animated:false)
+        collectionView.setContentOffset(collectionView.contentOffset, animated:false) // Stops collection view if it was scrolling.
         collectionView.reloadData()
     }
 
