@@ -2,13 +2,13 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    @IBOutlet private weak var collectionView: UICollectionView!
+    @IBOutlet fileprivate weak var collectionView: UICollectionView!
 
 }
 
 extension TableViewCell {
 
-    func setCollectionViewDataSourceDelegate<D: protocol<UICollectionViewDataSource, UICollectionViewDelegate>>(dataSourceDelegate: D, forRow row: Int) {
+    func setCollectionViewDataSourceDelegate<D: UICollectionViewDataSource & UICollectionViewDelegate>(_ dataSourceDelegate: D, forRow row: Int) {
 
         collectionView.delegate = dataSourceDelegate
         collectionView.dataSource = dataSourceDelegate
@@ -18,12 +18,7 @@ extension TableViewCell {
     }
 
     var collectionViewOffset: CGFloat {
-        set {
-            collectionView.contentOffset.x = newValue
-        }
-
-        get {
-            return collectionView.contentOffset.x
-        }
+        set { collectionView.contentOffset.x = newValue }
+        get { return collectionView.contentOffset.x }
     }
 }
